@@ -282,3 +282,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+yarn.lock
+package-lock.json
