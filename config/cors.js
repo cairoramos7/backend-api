@@ -18,7 +18,7 @@ module.exports = {
   | Function - Receives the current origin and should return one of the above values.
   |
   */
-    origin: true,
+    origin: false,
 
     /*
   |--------------------------------------------------------------------------
@@ -31,7 +31,8 @@ module.exports = {
   | Array - An array of allowed methods
   |
   */
-    methods: ['GET', 'PUT', 'PATCH', 'POST', 'DELETE'],
+    // methods: ['GET', 'PUT', 'PATCH', 'POST', 'DELETE'],
+    methods: ['PUT', 'PATCH', 'POST', 'DELETE'],
 
     /*
   |--------------------------------------------------------------------------
